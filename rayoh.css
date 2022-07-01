@@ -1,0 +1,131 @@
+article, aside, footer, header, main, nav, section{
+	display: block;
+	}
+
+html, body, h1, h2, h3, h4,h5, li, ol, a, p,
+article, aside, footer, header, main, section{
+	padding-top:0 0;
+	margin:5px 3px 0px 10px;
+	}
+
+.clik {
+	background:navy blue;
+	color:yellow;
+	padding:10px 3px;
+}
+h1 {
+	text-align:center;
+	background:magenta;
+	border-style:35%;
+	color:black;
+	text-shadow:green;
+	padding:5px;
+}
+
+h2 {
+	text-align:center;
+	border-radius:50%;
+	background:cyan;
+	color:black;
+	text-shadow:yellow;
+	padding:5px;
+}
+
+body{
+	width:80%;
+	margin-left:5px;
+	margin-right:5px;
+	background-color:#f0f0f0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:15px
+}
+#cliq{
+	background:rgba(100,200,255,0.3);
+	font-family:zombie,times new roman;
+	font-size:12px;
+	color:gray;
+	background-size:contain;
+	font-weight:bolder;
+}
+	
+li a{
+	color:green;
+}
+
+li{
+	display:block;
+	/*display:inline; will display content in a line that spills
+	over to the next line below*/
+	margin-left:3px;
+	margin-right:1px;
+	font-size:10px;
+	font-variant:small-caps;
+	font-weight:bolder;
+}
+ol{
+	display:block;
+	margin-left:10px;
+	font-size:10px;
+	font-weight:bold;
+}
+
+#onef{
+	background-image:url(mac.jpg);
+	background-size:cover;
+	/*background-size:cover; and background-size:100% will give the very best image adaptability*/
+	color:cyan;
+	margin-top:8px;
+	padding:5px;
+	border-radius:20px;
+	border-style:dotted;
+}
+
+#brayo{
+	background-image:url(4.jpg);
+	background-size:100%;
+	color:white;
+	margin-top:8px;
+	padding:5px;
+	border-radius:20px;
+	border-style:dotted;
+}
+
+article{
+	background-color:rgba(240,230,150,0.7);
+	margin:10px 5px 10px 5px;
+	padding:7px 3px 0px 5px;
+}
+
+main{
+	width:450px;
+	float:left;
+	margin-bottom:10px;
+}
+
+aside{
+	background-color:rgba(250,220,100,0.5);
+	width:270px;
+	float:right;
+	padding:20px;
+	margin-top:10px;
+	margin-bottom:5px;
+	border-width:3px;
+	border-style:dashed;
+	border-color:blue;
+	border-radius:20px;/*
+	height:100px; If this height is not sufficient to display
+	entire iformation, the below code will automatically add
+	Scrollbar to the text.
+	overflow:scroll; can also use overflow:hidden:(opposite)
+	or overflow:auto; for automatic scrollbar addition*/
+}
+	
+footer{
+	clear:both;
+	background-image:url(mac.jpg);
+	background-size:100%;
+	color:white;
+	padding:5px 2px;
+	align:bottom;
+	position:relative-y;
+}
